@@ -4,5 +4,6 @@ ThisBuild / scalaVersion := "2.13.8"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "essential-effects"
+    name := "essential-effects",
+    libraryDependencies += "org.typelevel" %% "cats-effect" % "2.5.5"
   )
