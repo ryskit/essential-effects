@@ -1,4 +1,4 @@
-package effects
+package com.ryskit.ee.effects
 
 import java.util.concurrent.TimeUnit
 import scala.concurrent.duration.FiniteDuration

@@ -1,4 +1,4 @@
-package effects
+package com.ryskit.ee.effects
 
 case class MyIO[A](unsafeRun: () => A) {
   def map[B](f: A => B): MyIO[B] =

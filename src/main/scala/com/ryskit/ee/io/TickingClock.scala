@@ -1,4 +1,4 @@
-package io
+package com.ryskit.ee.io
 
 import cats.effect.{ExitCode, IO, IOApp}
 

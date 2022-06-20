@@ -1,4 +1,4 @@
-package resources
+package com.ryskit.ee.resources
 
 import cats.effect.{ExitCode, IO, IOApp}
 
